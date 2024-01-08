@@ -1,0 +1,16 @@
+# FUNDING.yml
+# Configuration for funding information on GitHub repositories
+
+github: # Replace with GitHub Sponsors-enabled usernames, e.g., ['TONCodaUser1', 'TONCodaUser2']
+patreon: TONCodaPatreon # Replace with Patreon username, if applicable
+open_collective: TONCodaCollective # Replace with Open Collective username, if applicable
+ko_fi: TONCodaKofi # Replace with Ko-fi username, if applicable
+tidelift: npm/TONCoda # Replace with Tidelift platform-name/package-name, if applicable
+community_bridge: TONCodaProject # Replace with Community Bridge project-name, if applicable
+liberapay: TONCodaLibera # Replace with Liberapay username, if applicable
+issuehunt: TONCodaIssueHunt # Replace with IssueHunt username, if applicable
+otechie: TONCodaTechie # Replace with Otechie username, if applicable
+lfx_crowdfunding: TONCodaLFX # Replace with LFX Crowdfunding project-name, if applicable
+custom: ['https://www.buymeacoffee.com/likhonscripts'] # Replace with custom sponsorship URLs
+
+# Note: Replace the placeholders with actual usernames or URLs specific to TONCoda

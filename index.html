@@ -11,20 +11,65 @@
             color: #F7F9FB;
             background-color: #232328;
             text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             padding: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
         }
         .gradient {
             background: linear-gradient(135deg, #2D83EC, #1AC9FF);
             -webkit-background-clip: text;
             color: transparent;
+            font-size: 2em;
         }
-        .container {
-            max-width: 1280px;
-            margin: auto;
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #0098EA;
+            color: #F7F9FB;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+            opacity: 0.6;
+            padding: 20px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #0098EA;
+            margin: 0 10px;
+            font-size: 1.4em;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #1AC9FF;
         }
     </style>
 </head>
@@ -33,8 +78,16 @@
         <img src="https://i.ibb.co/m62YCRx/IMG-8269.png" alt="TONCoda Banner">
         <h1 class="gradient">TONCoda: AI-Driven Guide for The Open Network (TON)</h1>
         <p>Explore the TON ecosystem effortlessly with TONCoda, your AI-driven guide for The Open Network. Simplify interactions with the decentralized TON Blockchain!</p>
-        <p><strong>Contact Us:</strong> <a href="mailto:advice@toncoda.art">advice@toncoda.art</a> | <a href="https://toncoda.art">Visit TONCoda</a></p>
-        <p><a href="https://t.me/TONCoda">Join our Telegram Community</a></p>
+        <a href="mailto:advice@toncoda.art" class="button">Contact Us</a>
+        <a href="https://toncoda.art" class="button">Visit TONCoda</a>
+        <a href="https://t.me/TONCoda" class="button">Join Our Telegram</a>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.ton.org/">📘</a>
+            <a href="https://www.twitter.com/TONCoda">🐦</a>
+        </div>
+        Powered by TON Blockchain
     </div>
 </body>
 </html>
